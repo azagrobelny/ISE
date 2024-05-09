@@ -1,8 +1,5 @@
-Troubleshoot  ISE
-#############################
-
 ise01/admin# application configure ise
-
+############################################
 Selection configuration option
 [1]Reset M&T Session Database
 [2]Rebuild M&T Unusable Indexes
@@ -33,7 +30,7 @@ Selection configuration option
 [0]Exit
 
 ise01/admin#show application status ise
-
+################################################
 ISE PROCESS NAME                       STATE            PROCESS ID  
 --------------------------------------------------------------------
 Database Listener                      running          11923       
