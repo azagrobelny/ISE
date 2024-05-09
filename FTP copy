@@ -1,11 +1,11 @@
-FTP copy
- 
 COPY FROM FTP TO ISE
+############################
 isepan2001/admin# copy ftp://10.143.135.33/ISE/ISEnew/ise-urtbundle-3.0.0.458-1.0.0.SPA.x86_64.tar.gz disk:/
 Username: uploadisenew
 Password:
  
 COPY FROM ISE TO FTP
+############################
 isepsn1002/admin# copy disk:/tech_isepsn1002_17-11-2021-12-20.tar.gz ftp://10.143.135.33/ISE
 Username: uploadisenew
 Password: 
