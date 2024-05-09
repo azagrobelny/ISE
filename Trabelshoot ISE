@@ -1,0 +1,32 @@
+Trabelshoot  ISE
+################
+
+isemnt2001/admin# application configure ise
+Selection configuration option
+[1]Reset M&T Session Database
+[2]Rebuild M&T Unusable Indexes
+[3]Purge M&T Operational Data
+[4]Reset M&T Database
+[5]Refresh Database Statistics
+[6]Display Profiler Statistics
+[7]Export Internal CA Store
+[8]Import Internal CA Store
+[9]Create Missing Config Indexes
+[10]Create Missing M&T Indexes
+[11]Enable/Disable ACS Migration
+[12]Generate Daily KPM Stats
+[13]Generate KPM Stats for last 8 Weeks
+[14]Enable/Disable Counter Attribute Collection
+[15]View Admin Users
+[16]Get all Endpoints
+[19]Establish Trust with controller
+[20]Reset Context Visibility
+[21]Synchronize Context Visibility With Database
+[22]Generate Heap Dump
+[23]Generate Thread Dump
+[24]Force Backup Cancellation
+[25]CleanUp ESR 5921 IOS Crash Info Files
+[26]Recreate undotablespace
+[27]Configure TCP params
+[28]Fetch SGA/PGA Memory usage
+[0]Exit
