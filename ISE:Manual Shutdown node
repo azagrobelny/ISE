@@ -1,0 +1,9 @@
+ISE:Manual Shutdown node
+########################
+ 
+The correct way to shut down an ISE node CLI is:
+1. Application stop ise
+2. Halt
+ 
+<https://community.cisco.com/t5/network-access-control/shutdown-ise/td-p/3396126> 
+ 
