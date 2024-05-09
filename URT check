@@ -1,0 +1,23 @@
+URT check
+##############
+
+Krok1: Stworzenie  repozytorium lokalne
+https://community.cisco.com/t5/network-access-control/ise-repository-on-local-disk/td-p/4068458
+Krok2: Skopiowanie pliku do ISE na disk:/ 
+Krok3: instalacja ISE
+https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/215528-upgrade-identity-services-engine-ise.html
+ 
+
+isepan2001/admin# application install ise-urtbundle-3.0.0.458-1.0.0.SPA.x86_64.tar.gz diskrepo
+Save the current ADE-OS running configuration? (yes/no) [yes] ? yes
+Generating configuration...
+Saved the ADE-OS running configuration to startup successfully
+ 
+Getting bundle to local machine...
+Unbundling Application Package...
+Verifying Application Signature…
+ 
+Uinstall URT:
+###############
+isepan2001/admin# 
+isepan2001/admin# application remove urt
