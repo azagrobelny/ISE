@@ -1,7 +1,7 @@
 Trabelshoot  ISE
-################
+#############################
 
-isemnt2001/admin# application configure ise
+ise01/admin# application configure ise
 Selection configuration option
 [1]Reset M&T Session Database
 [2]Rebuild M&T Unusable Indexes
@@ -30,3 +30,43 @@ Selection configuration option
 [27]Configure TCP params
 [28]Fetch SGA/PGA Memory usage
 [0]Exit
+
+ise01/admin#show application status ise
+
+ISE PROCESS NAME                       STATE            PROCESS ID  
+--------------------------------------------------------------------
+Database Listener                      running          11923       
+Database Server                        running          190 PROCESSES
+Application Server                     running          41130       
+Profiler Database                      running          19137       
+ISE Indexing Engine                    running          42291       
+AD Connector                           running          52659       
+M&T Session Database                   running          30425       
+M&T Log Processor                      running          41381       
+Certificate Authority Service          disabled                     
+EST Service                            disabled                     
+SXP Engine Service                     disabled                     
+TC-NAC Service                         disabled        
+PassiveID WMI Service                  disabled                     
+PassiveID Syslog Service               disabled                     
+PassiveID API Service                  disabled                     
+PassiveID Agent Service                disabled                     
+PassiveID Endpoint Service             disabled                     
+PassiveID SPAN Service                 disabled                     
+DHCP Server (dhcpd)                    disabled                     
+DNS Server (named)                     disabled                     
+ISE Messaging Service                  running          15047       
+ISE API Gateway Database Service       running          18003       
+ISE API Gateway Service                running          29084       
+ISE pxGrid Direct Service              running          97397       
+Segmentation Policy Service            disabled                     
+REST Auth Service                      disabled                     
+SSE Connector                          disabled                     
+Hermes (pxGrid Cloud Agent)            disabled                     
+McTrust (Meraki Sync Service)          disabled                     
+ISE Node Exporter                      running          55575       
+ISE Prometheus Service                 running          57371       
+ISE Grafana Service                    running          59932       
+ISE MNT LogAnalytics Elasticsearch     disabled                     
+ISE Logstash Service                   disabled                     
+ISE Kibana Service                     disabled                     
