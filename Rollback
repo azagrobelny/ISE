@@ -1,0 +1,12 @@
+Rollback
+####################
+ 
+Roll Back to the Previous Version
+In rare cases, you might have to reimage the Cisco ISE-PIC appliance by using the previous version of ISO image and restoring the data from the backup file. After restoring the data, you can register with the old deployment. Hence, we recommend that you back up the Cisco ISE-PIC configuration data before you start the upgrade process. 
+Sometimes, upgrade failures that occur because of issues in the configuration database are not rolled back automatically. When this occurs, you get a notification stating that the database is not rolled back, along with an upgrade failure message. In such scenarios, you should manually reimage your system, install Cisco ISE, and restore the configuration data. 
+Before you attempt to rollback or recovery, generate a support bundle by using the backup-logs command, and place the support bundle in a remote repository. 
+Copyright © 2022, Cisco Systems, Inc. All rights reserved.
+ 
+Z <https://www.cisco.com/c/en/us/td/docs/security/ise/3-1/upgrade_guide/HTML/b_upgrade_method_3_1.html> 
+ 
+ 
