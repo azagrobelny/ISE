@@ -1,0 +1,22 @@
+Manual Failover PAN
+########################
+
+What to do next
+After the promotion of Secondary PAN to the Primary PAN, do the following: 
+  - Manually sync the old Primary PAN to bring it back into the deployment. 
+  - Manually sync any other secondary node that is out-of sync, to bring it back into the deployment. 
+Manually Promote Secondary PAN To Primary
+If the Primary PAN fails and you have not configured PAN auto-failover, you must manually promote the Secondary PAN to become the new Primary PAN. 
+
+Before you begin
+Ensure that you have a second Cisco ISE node configured with the Administration persona to promote as your Primary PAN. 
+
+Procedure
+Step 1	Log in to the user interface of the Secondary PAN. 
+Step 2	Choose Administration > System > Deployment. 
+Step 3	In the Edit Node page, click Promote to Primary. 
+You can only promote a Secondary PAN to become the Primary PAN. Cisco ISE nodes that assume only the Policy Service or Monitoring persona, or both, cannot be promoted to become the Primary PAN. 
+Step 4	Click Save. 
+ 
+Z <https://www.cisco.com/c/en/us/td/docs/security/ise/2-0/admin_guide/b_ise_admin_guide_20/b_ise_admin_guide_20_chapter_010.html#ID590> 
+ 
