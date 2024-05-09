@@ -1,0 +1,19 @@
+Configure Local Repository
+########################
+
+CLI
+Log in to the CLI of the ISE node via SSH and run these commands:
+ise/admin#
+ise/admin# configure terminal 
+Enter configuration commands, one per line. End with CNTL/Z.
+ise/admin(config)# repository Local-Repo
+ise/admin(config-Repository)# url disk:/
+ise/admin(config-Repository)# exit
+ise/admin(config)# exit
+ise/admin#
+ 
+Z <https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine-software/215348-how-to-configure-repository-on-identity.html#anc17> 
+ 
+ 
+GUI
+https://community.cisco.com/t5/network-access-control/ise-repository-on-local-disk/td-p/4068458
