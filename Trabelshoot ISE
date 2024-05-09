@@ -2,6 +2,7 @@ Trabelshoot  ISE
 #############################
 
 ise01/admin# application configure ise
+
 Selection configuration option
 [1]Reset M&T Session Database
 [2]Rebuild M&T Unusable Indexes
