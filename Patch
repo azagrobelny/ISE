@@ -1,0 +1,12 @@
+Patch install
+################
+ISE/admin# Patch install <patch_file_name> <FTP_repository>
+ISE/admin# patch install ise-patchbundle-10.1.0.0-Ptach3-19110111.SPA.x86_64.tar.gz FTP_repository
+
+Patch Weryfikacja
+################
+ISE/admin# show version
+
+Usunięcie Patcha
+#################
+ISE/admin# patch remove ise 3
