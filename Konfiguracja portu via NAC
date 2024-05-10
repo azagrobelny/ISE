@@ -1,0 +1,22 @@
+interface GigabitEthernet x/y/z	
+ description           - opis	
+ switchport access vlan 999	- vlan w domenie data
+ switchport mode access	 - tryb portu
+ switchport nonegotiate	
+ switchport voice vlan 72	- vlan w domenie voice
+ . . .	
+ authentication control-direction in	- ustawienie dla uwierzytelniania…
+ authentication event fail action next-method	- W przypadku porażki, weź następną metodę
+ authentication event server dead action reinitialize vlan 56	 - gdy RADIUS (ISE) padnie, przydziel vlan 56
+ authentication event server dead action authorize voice	- gdy RADIUS (ISE) padnie zrób, autoryzacje dla domeny voice
+ authentication event server alive action reinitialize 	- gdy RADIUS (ISE) będzie dostępny,  zrób ponowną inicjalizację portu
+ authentication host-mode multi-auth - tryb pracy 802.1X na tym porcie
+ authentication order dot1x mab	 - ustawienie metody uwierzytelniania na porcie
+ authentication priority dot1x mab	- ustawienie priorytetu dla metod
+ authentication port-control auto	- ustawienie wartości kontroli portu
+ authentication violation restrict	- ustawienie naruszenia bezpieczeństwa
+ mab	
+ dot1x pae authenticator	- Ustawienia dostępu do portu
+ dot1x timeout tx-period 5	- Ustawienia timeout dla suplikanta
+ . . .	
+end	
