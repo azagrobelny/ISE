@@ -1,0 +1,8 @@
+Krok 1 Stworzyć plik z rozszeżeniem .csv 
+krok 2 Dodać wzór, skopiować jedno pod drugim w razie potrzeby
+"MACAddress","EndPointPolicy","IdentityGroup","Description","DeviceRegistrationStatus","BYODRegistration","Device Type","EmailAddress","ip","FirstName","host-name","LastName","Location","PortalUser","User-Name","StaticAssignment","StaticGroupAssignment","PortalUser.FirstName","PortalUser.LastName","PortalUser.EmailAddress","PortalUser.PhoneNumber","PortalUser.GuestType","PortalUser.GuestStatus","PortalUser.Location","PortalUser.GuestSponsor","PortalUser.CreationType","AUPAccepted"
+"80:ce:62:e7:4b:0e","","PRINTER_TMP","","NotRegistered","Unknown","Device Type#All Device Types#Switch#Cisco",,"","",,"","",,"","false","true","","",,,,,,,,
+"MACAddress","EndPointPolicy","IdentityGroup","Description","DeviceRegistrationStatus","BYODRegistration","Device Type","EmailAddress","ip","FirstName","host-name","LastName","Location","PortalUser","User-Name","StaticAssignment","StaticGroupAssignment","PortalUser.FirstName","PortalUser.LastName","PortalUser.EmailAddress","PortalUser.PhoneNumber","PortalUser.GuestType","PortalUser.GuestStatus","PortalUser.Location","PortalUser.GuestSponsor","PortalUser.CreationType","AUPAccepted"
+"ac:e2:d3:45:07:f3","","PRINTER_TMP","","NotRegistered","Unknown","Device Type#All Device Types#Switch#Cisco",,"","",,"","",,"","false","true","","",,,,,,,,
+
+Krok 3 Zapisać i wrzycić
