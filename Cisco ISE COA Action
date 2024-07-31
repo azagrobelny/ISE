@@ -1,0 +1,9 @@
+######### Cisco ISE COA Action #########
+
+Session Reauthentication:               Ta metoda wymusza ponowną autoryzację sesji użytkownika. Użytkownik musi ponownie przejść proces uwierzytelniania, co może obejmować ponowne wprowadzenie danych logowania1.
+Session Termination with Port Bounce:   Ta metoda kończy sesję użytkownika i jednocześnie resetuje port, do którego jest podłączony. Port jest chwilowo wyłączany i ponownie włączany, co powoduje, że urządzenie musi ponownie nawiązać połączenie2.
+Session Reauthentication with Rerun:    Podobnie jak w przypadku zwykłej ponownej autoryzacji, ale dodatkowo uruchamiane są określone skrypty lub procedury, które mogą być wymagane do pełnej ponownej autoryzacji sesji.
+Session Termination:                    Ta metoda po prostu kończy sesję użytkownika bez dodatkowych działań. Użytkownik musi ponownie nawiązać połączenie, aby uzyskać dostęp do sieci2.
+Session Termination with Port Shutdown: Ta metoda kończy sesję użytkownika i wyłącza port, do którego jest podłączony. Port pozostaje wyłączony, dopóki administrator sieci nie zdecyduje się go ponownie włączyć2.
+Session Reauthentication with Last:     Ta metoda wymusza ponowną autoryzację sesji użytkownika, ale z zachowaniem ostatnich ustawień i konfiguracji, co może ułatwić proces ponownego uwierzytelniania.
+SAnet Session Query:                    Ta metoda pozwala na zapytanie o bieżący stan sesji użytkownika w sieci SAnet, co może być użyteczne do monitorowania i zarządzania sesjami.
