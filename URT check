@@ -1,5 +1,5 @@
 URT check
-##############
+#############################
 
 Krok1: Stworzenie  repozytorium lokalne
 https://community.cisco.com/t5/network-access-control/ise-repository-on-local-disk/td-p/4068458
@@ -16,8 +16,25 @@ Saved the ADE-OS running configuration to startup successfully
 Getting bundle to local machine...
 Unbundling Application Package...
 Verifying Application Signature…
- 
+
+
+Faild URT installation check
+##############################
+plise02/admin#application install ise-urtbundle-3.3.0.430a-1.0.0.SPA.x86_64.tar.gz repo
+Getting bundle to local machine...
+Unbundling Application Package...
+Verifying Application Signature...
+% Application already installed, please use upgrade option
+
+Show URT installation:
+##############################
+plise02/admin#show application 
+<name>          <Description> 
+ise             Cisco Identity Services Engine
+                Patches: 4 5 
+urt             Cisco ISE - Upgrade Readiness Tool
+
 Uinstall URT:
-###############
+##############################
 isepan2001/admin# 
 isepan2001/admin# application remove urt
