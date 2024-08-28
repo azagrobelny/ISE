@@ -68,3 +68,19 @@ ISE Grafana Service                    running          59932
 ISE MNT LogAnalytics Elasticsearch     disabled                     
 ISE Logstash Service                   disabled                     
 ISE Kibana Service                     disabled                     
+
+ise01/admin#tech top
+
+top - 09:45:33 up 14 days, 15:28,  1 user,  load average: 3.40, 2.95, 4.44
+Tasks: 694 total,   4 running, 690 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.3 us,  3.8 sy,  0.0 ni, 81.2 id,  0.0 wa,  0.2 hi,  0.4 si,  0.0 st
+MiB Mem :  94780.3 total,   9673.0 free,  63353.7 used,  21753.6 buff/cache
+MiB Swap:   8000.0 total,     23.6 free,   7976.4 used.  11848.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                               
+1698736 iseadmi+  20   0   37.1g  16.5g  76444 S 211.1  17.8  14219:45 jsvc                                                                                                                  
+1699637 iseelas+  20   0   14.0g   9.6g  22472 S  50.0  10.3 437:40.47 java                                                                                                                  
+1687365 iseprof+  20   0  206380 163420   2404 S  11.1   0.2 920:56.87 redis-server                                                                                                          
+4136977 root      20   0   69040   6556   4980 R  11.1   0.0   0:00.04 top                                                                                                                   
+4136991 oracle    20   0  123744  24304  20204 R  11.1   0.0   0:00.02 sqlplus            
+
