@@ -1,0 +1,6 @@
+W Cisco Identity Services Engine (ISE), istnieje kilka rodzajów akcji Change of Authorization (CoA), które można zastosować:
+---------------------------
+- Reauthentication (Reauth): Ponowne uwierzytelnienie urządzenia, aby sprawdzić jego zgodność z nowymi zasadami.
+- Port Bounce: Tymczasowe rozłączenie i ponowne połączenie portu sieciowego, co wymusza ponowne uwierzytelnienie urządzenia.
+- Session Termination: Zakończenie bieżącej sesji urządzenia, co zmusza je do ponownego uwierzytelnienia przy następnym połączeniu.
+- Session Reauthentication with Last Known Good Configuration: Ponowne uwierzytelnienie sesji z użyciem ostatniej znanej dobrej konfiguracji, aby upewnić się, że urządzenie lub użytkownik jest zgodny z politykami sieciowymi przed ponownym przyznaniem dostępu
